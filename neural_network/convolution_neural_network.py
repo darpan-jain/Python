@@ -190,8 +190,8 @@ class CNN():
             pd_all.append(pd_conv2)
         return pd_all
 
-    def trian(self,patterns,datas_train, datas_teach, n_repeat, error_accuracy,draw_e = bool):
-        #model traning
+    def train(self,patterns,datas_train, datas_teach, n_repeat, error_accuracy,draw_e = bool):
+        # model training
         print('----------------------Start Training-------------------------')
         print((' - - Shape: Train_Data  ',np.shape(datas_train)))
         print((' - - Shape: Teach_Data  ',np.shape(datas_teach)))
